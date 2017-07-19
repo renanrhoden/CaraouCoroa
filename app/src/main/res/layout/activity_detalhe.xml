@@ -10,7 +10,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.renanrhoden.caraoucoroa.DetalheActivity"
-    android:background="#7bd880">
+    android:background="#61BC8B">
 
     <ImageView
         android:layout_width="wrap_content"
@@ -27,5 +27,12 @@
         android:id="@+id/botaoVoltarID"
         android:layout_below="@+id/imagemID"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="35dp" />
+        android:layout_marginTop="70dp" />
+    <LinearLayout
+        android:id="@+id/banner_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        />
 </RelativeLayout>
